@@ -6,3 +6,8 @@ opencv-python-headless
 matplotlib
 ultralytics
 pillow
+streamlit
+Pillow
+numpy
+ultralytics
+opencv-python-headless
