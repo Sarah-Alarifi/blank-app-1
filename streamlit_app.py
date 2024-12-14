@@ -8,7 +8,7 @@ st.write("Upload an image, and let the YOLO model detect objects in it.")
 
 @st.cache_resource
 def load_model():
-    model = YOLO("kidney_yolo.pt")  # Update the path if your model is stored elsewhere
+    model = YOLO("kidney_yolo.pt") 
     return model
 
 model = load_model()
