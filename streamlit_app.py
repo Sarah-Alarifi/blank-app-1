@@ -27,4 +27,4 @@ if uploaded_file is not None:
     st.image(results[0].plot(), caption="Detection Results", use_column_width=True)
 
     st.write("Detection Results:")
-    st.write(results[0].boxes.data.cpu().numpy())
+    st.write(results[0].boxes.data.cpu().numpy()) 
